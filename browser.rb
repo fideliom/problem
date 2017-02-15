@@ -9,6 +9,6 @@ request = "GET #{path} HTTP/1.0"
 
 socket = TCPSocket.open(host,port)  
 socket.print(request)  
-resp = socket.readl
+resp = socket.read
 puts resp           
                 
